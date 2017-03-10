@@ -28,6 +28,7 @@ public class GameManager {
 	}
 	
 	public void onDisable() {
+		this.setServerState(ServerState.ENDING);
 		Methods.getLogger("Disabling...");
 	}
 

@@ -27,7 +27,12 @@ public class OnPlayerJoinLeaveEvents implements Listener {
 	
 	@EventHandler
 	public void onPlayerLeave(PlayerQuitEvent event) {
-		
+		event.setQuitMessage(Methods.CharColor("&6[&4!&6] &4" + event.getPlayer().getDisplayName() + " &6Has Quit!"));
+	 
+	
+	
+	
+	
 	}
 
 }
